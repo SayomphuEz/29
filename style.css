@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
 :root {
   --color: rgb(82, 0, 0);
 }
 
 body {
-    background-image: url(img/3.png);
+  background-image: url(img/3.png);
 }
+
 button {
   border: 1px solid var(--color);
   color: var(--color);
@@ -30,14 +32,61 @@ button:hover {
   transition: 0.2s;
 }
 
-  .H{
-    opacity: 50%;
+.H {
+  opacity: 50%;
 }
-h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: grey;
+
+.h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
 }
-h3{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: grey;
+
+h4 {
+  font-size: 48px;
+  color: white;
+}
+
+h3 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.div1 {
+  border: 3px solid black;
+  width: 100%;
+
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  border: 1px solid red;
+  font-size: 30px;
+}
+
+td:hover {
+  box-shadow: 2px 2px 15px -2px rgb(50, 50, 50);
+}
+
+.box {
+  width: 50%;
+  background-color: white;
+  opacity: 0.5;
+  border: 3px solid black;
+  box-sizing: border-box;
+}
+
+.fixd1 {
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:50%;
+}
+.fixd2 {
+  position:absolute;
+  top:50%;
+  right:0;
+  bottom:0;
 }
