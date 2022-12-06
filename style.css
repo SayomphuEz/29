@@ -37,9 +37,10 @@ button:hover {
 }
 
 .h1 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: white;
-}
+  color: #364e96;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  }
 
 h4 {
   font-size: 48px;
@@ -48,7 +49,8 @@ h4 {
 
 h3 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: white;
+  color: black;
+
 }
 
 .div1 {
@@ -56,6 +58,26 @@ h3 {
   width: 100%;
 
 }
+
+.outer {
+  align-items: stretch;
+  display: flex;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.inner1 {
+  min-height: 200px;
+  width: 35%;
+  padding: 10px;
+}
+
+.inner2 {
+  width: 50%;
+  padding: 10px;
+}
+
 
 table {
   width: 100%;
@@ -66,16 +88,11 @@ td {
   font-size: 30px;
 }
 
-td:hover {
-  box-shadow: 2px 2px 15px -2px rgb(50, 50, 50);
-}
-
 .box {
   width: 50%;
-  background-color: white;
   opacity: 0.5;
-  border: 3px solid black;
   box-sizing: border-box;
+  padding: 10px;
 }
 
 .fixd1 {
@@ -83,10 +100,22 @@ td:hover {
   top:0;
   right:0;
   bottom:50%;
+  padding: 10px;
 }
 .fixd2 {
+
   position:absolute;
   top:50%;
   right:0;
   bottom:0;
+  padding: 10px;
 }
+
+.div2
+{
+  border-radius: 16px;
+  width: 200px;
+  height: 50px;
+  background-color: white;
+}
+
