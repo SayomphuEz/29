@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+:root {
+  --color: rgb(82, 0, 0);
+}
+body { 
+  background: url(img/3.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+button {
+  border: 1px solid var(--color);
+  color: var(--color);
+  font-size: 25px;
+  padding: 12px 50px;
+  background: black;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+div.filter:hover {
+  filter: brightness(2);
+}
+
+button:hover {
+  background: var(--color);
+  color: black;
+  box-shadow: 0 0 5px var(--color),
+    0 0 25px var(--color),
+    0 0 50px var(--color),
+    0 0 200px var(--color);
+  transition: 0.2s;
+}
+
+.H {
+  opacity: 50%;
+}
+
+.h1 {
+  color: #364e96;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+
+h4 {
+  font-size: 48px;
+  color: white;
+}
+
+h3 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+
+}
+
+.div1 {
+  width: 100%;
+  padding: 10px;
+}
+ 
+.outer {
+  align-items: stretch;
+  display: flex;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.inner1 {
+  min-height: 200px;
+  width: 35%;
+  padding: 10px;
+}
+
+.inner2 {
+  width: 50%;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  border: 1px solid red;
+  font-size: 18px;
+}
+
+.box {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.fixd1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 50%;
+  padding: 10px;
+}
+
+.fixd2 {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+}
+
+.div2 {
+  border-radius: 20px;
+  width: auto;
+  height: auto;
+  background-color: white;
+  padding: 10px;
+  opacity: 0.6;
+}
+
+.body1 {
+  background: #ff5f6d;
+  background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
+  background: linear-gradient(to right, #ff5f6d, #ffc371);
+  min-height: 100vh;
+}
+
+#button-addon1 {
+  color: #ffc371;
+}
+
+i {
+  color: #ffc371;
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none;
+}
